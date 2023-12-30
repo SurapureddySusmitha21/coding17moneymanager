@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.money-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 22px;
+  margin-right: 20px;
+}
+.balence-container {
+  display: flex;
+  background-color: #ecfccb;
+  border: #84cc16 1px solid;
+  border-radius: 13px;
+  height: 18vh;
+  width: 30%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+.image-url {
+  height: 9vh;
+  width: 5vw;
+  margin-right: 23px;
+}
+.your-balance-heading {
+  color: #7e858e;
+  font-size: 19px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.balance-amount {
+  color: #334155;
+  font-size: 21px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.income-container {
+  display: flex;
+  background-color: #cffafe;
+  border: #06b6d4 1px solid;
+  border-radius: 13px;
+  height: 18vh;
+  width: 30%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+.expenses-container {
+  display: flex;
+  background-color: #ede9fe;
+  border: #7c3aed 1px solid;
+  border-radius: 13px;
+  height: 18vh;
+  width: 30%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}

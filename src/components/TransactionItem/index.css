@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.li-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: #d7dfe9 1px solid;
+  align-items: center;
+  padding-right: 75px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+.paragraph {
+  color: #d7dfe9;
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding-right: 27px;
+
+  padding-left: 0px;
+}
+.delete-image {
+  height: 20px;
+  width: 22px;
+}
+.delete-btn {
+  background-color: transparent;
+  margin-left: 30px;
+  border: transparent;
+}
